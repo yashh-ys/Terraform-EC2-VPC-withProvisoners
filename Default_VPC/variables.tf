@@ -12,6 +12,6 @@ variable "instance_type" {
 
 variable "subnet_id" {
     type        = string
-    default     = "subnet-0498d4296c0dc482e"
-    description = "Subnet ID for Instance"
+    default     = "<subnet_id>"
+    description = "Subnet ID"
 }
